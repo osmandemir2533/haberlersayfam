@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+  </head>
+
+  <body style ="background-color:rgba(33,22,44,60%)">
+    <header style="color:red;"> HABERLER.COM</header>
+    <nav>
+      <ul>
+                <li><a href ="index.html">Anasayfa</a></li>
+
+        <li><a style="color:white;" href ="ekonomi.html">Ekonomi</a></li>
+        <li><a style="color:white;" href ="siyaset.html">Siyaset</a></li>
+        <li><a style="color:white;" href ="magazin.html">Magazin</a></li>
+        <li><a style="color:white;" href ="spor.html">Spor</a></li>
+
+      </ul>
+    </nav>
+    <article style="color:yellow;">
+      Türkiyenin eşsiz haberler sayfasındasınız 
+      <br><br>
+      </article>
+
+      <article>
+
+          <h1 style="color:blue;" >ANASAYFA</h1>
+          <form action="kullanicilar.html">
+              <h3>Kullanıcı Kayıt Formu</h3>
+              <label style ="background-color:green" > İsim :</label>
+              <input name="isim" type="text" required />
+              <br>
+              <label style ="background-color:green" > Soyisim:</label>
+              <input name="Soyisim" type="text" required />
+              <br>
+              <label style ="background-color:green" > Şifre:</label>
+              <input name="sifre" type="password" required />
+              <br>
+              <label style ="background-color:green" > Cinsiyet:</label>
+              <select >
+                <option>Erkek</option>
+                <option>Kadın</option>
+              </select>
+
+              <br>
+              <br>
+              <label style ="background-color:green" >Sevdiğiniz Araba Markaları</label>
+              <select name="cars" size="2" multiple>
+                <option>BMW</option>
+                <option>Mercedes</option>
+                <option>Tofaş</option>
+                <option>Renault</option>
+                <option>Tesla</option>
+                <option>Citroen</option>
+                <option>Togg</option>
+                </select>
+                <br>
+                <br>
+                <label style ="background-color:green">Görüş ve Önerileriniz</label>
+                <textarea name="gorusler" rows="5" cols="40"></textarea>
+                <br>
+                <input type="submit" value="kaydedin"/>
+
+           </form>
+
+      </article>
+    </article>
+         <br>
+         <footer> copyright &copy;Osman Demir</footer>
+
+
+
+
+
+
+  </body>
+</html>
